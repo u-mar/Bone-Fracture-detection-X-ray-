@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Environment variables (IMPORTANT - contains API keys)
+.env
+backend/.env
+
+# Node modules (very large)
+node_modules/
+frontend/node_modules/
+npm-debug.log
+yarn-error.log
+frontend/build/
+
+# Model files (too large for GitHub)
+*.h5
+*.pt
+backend/models/*.h5
+backend/yolov8n.pt
+backend/models/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
+
+# Dataset folders (very large)
+backend/dataset/
+backend/dataset1/
+backend/backend/dataset/
+dataset/
+dataset1/
+
+# Upload folders
+uploads/
+backend/uploads/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.jar
+
+# Test files
+backend/test_gemini.py
+backend/tes.py

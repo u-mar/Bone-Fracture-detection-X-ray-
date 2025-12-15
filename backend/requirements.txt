@@ -1,0 +1,10 @@
+tensorflow
+flask
+numpy
+opencv-python
+pillow
+flask-cors
+ultralytics
+torch
+google-generativeai
+python-dotenv
