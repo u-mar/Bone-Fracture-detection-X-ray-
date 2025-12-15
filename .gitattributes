@@ -1,2 +1,0 @@
-# No LFS - all files treated as regular git files
-# Large model files are excluded in .gitignore instead
